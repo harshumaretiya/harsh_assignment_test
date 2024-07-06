@@ -1,0 +1,23 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: password
+  host: localhost
+
+development:
+  <<: *default
+  database: harsh_development
+
+
+test:
+  <<: *default
+  database: harsh_test
+
+
+production:
+  <<: *default
+  database: harsh_production
+  # username: harsh_assignment
+  # password: <%= ENV["HARSH_ASSIGNMENT_DATABASE_PASSWORD"] %>
