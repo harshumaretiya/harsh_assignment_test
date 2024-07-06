@@ -1,0 +1,444 @@
+{
+	"info": {
+		"_postman_id": "20fa7b66-2de1-43ce-b8fa-4eaf0e4a12b8",
+		"name": "Konnector",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17872901",
+		"_collection_link": "https://cloudy-astronaut-95411.postman.co/workspace/SEMS~782120d4-91ae-433d-8483-972dc9860b2f/collection/17872901-20fa7b66-2de1-43ce-b8fa-4eaf0e4a12b8?action=share&source=collection_link&creator=17872901"
+	},
+	"item": [
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/users?page=1&per_page=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "users",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/users?page=1&per_page=20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "vary",
+							"value": "Accept"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"1b166286fb86317687874c2f03e3da7f\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "7af26f28-f740-4851-83d2-8df927c4750c"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.073466"
+						},
+						{
+							"key": "server-timing",
+							"value": "start_processing.action_controller;dur=0.01, sql.active_record;dur=4.45, instantiation.active_record;dur=8.22, process_action.action_controller;dur=14.57"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3713"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Hai Harber\",\n            \"email\": \"mignon@goldner-krajcik.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 5448,\n                    \"campaign_name\": \"perspiciatis\"\n                },\n                {\n                    \"campaign_id\": 1242,\n                    \"campaign_name\": \"vitae\"\n                }\n            ]\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Cecily Wolff Jr.\",\n            \"email\": \"john@sporer-boyer.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 3556,\n                    \"campaign_name\": \"repellendus\"\n                },\n                {\n                    \"campaign_id\": 9368,\n                    \"campaign_name\": \"dignissimos\"\n                }\n            ]\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Eduardo Davis\",\n            \"email\": \"maria@stehr.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 6085,\n                    \"campaign_name\": \"ab\"\n                },\n                {\n                    \"campaign_id\": 1025,\n                    \"campaign_name\": \"et\"\n                }\n            ]\n        },\n        {\n            \"id\": 4,\n            \"name\": \"See Kunde\",\n            \"email\": \"corrie_dach@dare.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 2996,\n                    \"campaign_name\": \"rem\"\n                },\n                {\n                    \"campaign_id\": 8717,\n                    \"campaign_name\": \"maxime\"\n                }\n            ]\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Jae Runolfsson\",\n            \"email\": \"paulene_medhurst@towne-hegmann.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 4749,\n                    \"campaign_name\": \"nobis\"\n                },\n                {\n                    \"campaign_id\": 7300,\n                    \"campaign_name\": \"illo\"\n                }\n            ]\n        },\n        {\n            \"id\": 6,\n            \"name\": \"Thanh Collins Sr.\",\n            \"email\": \"bennett_hintz@connelly-jaskolski.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 4577,\n                    \"campaign_name\": \"harum\"\n                },\n                {\n                    \"campaign_id\": 8159,\n                    \"campaign_name\": \"sapiente\"\n                }\n            ]\n        },\n        {\n            \"id\": 7,\n            \"name\": \"Diedra Heaney\",\n            \"email\": \"beckie@mcglynn.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 2673,\n                    \"campaign_name\": \"sint\"\n                },\n                {\n                    \"campaign_id\": 5969,\n                    \"campaign_name\": \"voluptates\"\n                }\n            ]\n        },\n        {\n            \"id\": 8,\n            \"name\": \"Pres. Laurie Quigley\",\n            \"email\": \"hugo@stehr-blick.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 1126,\n                    \"campaign_name\": \"culpa\"\n                },\n                {\n                    \"campaign_id\": 7676,\n                    \"campaign_name\": \"error\"\n                }\n            ]\n        },\n        {\n            \"id\": 9,\n            \"name\": \"Trula Casper II\",\n            \"email\": \"kyong@mohr-kunze.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 9359,\n                    \"campaign_name\": \"ipsum\"\n                },\n                {\n                    \"campaign_id\": 3961,\n                    \"campaign_name\": \"vitae\"\n                }\n            ]\n        },\n        {\n            \"id\": 10,\n            \"name\": \"Brooks Walter\",\n            \"email\": \"levi.glover@cruickshank-breitenberg.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 8611,\n                    \"campaign_name\": \"atque\"\n                },\n                {\n                    \"campaign_id\": 4573,\n                    \"campaign_name\": \"est\"\n                }\n            ]\n        },\n        {\n            \"id\": 11,\n            \"name\": \"Rosario Hane\",\n            \"email\": \"odessa_weber@towne.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 2454,\n                    \"campaign_name\": \"autem\"\n                },\n                {\n                    \"campaign_id\": 9403,\n                    \"campaign_name\": \"quas\"\n                }\n            ]\n        },\n        {\n            \"id\": 12,\n            \"name\": \"Delena Deckow III\",\n            \"email\": \"hollis@cruickshank.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 3456,\n                    \"campaign_name\": \"in\"\n                },\n                {\n                    \"campaign_id\": 4289,\n                    \"campaign_name\": \"ipsum\"\n                }\n            ]\n        },\n        {\n            \"id\": 13,\n            \"name\": \"Annette Roberts\",\n            \"email\": \"zane_ryan@heathcote.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 2137,\n                    \"campaign_name\": \"doloribus\"\n                },\n                {\n                    \"campaign_id\": 1695,\n                    \"campaign_name\": \"exercitationem\"\n                }\n            ]\n        },\n        {\n            \"id\": 14,\n            \"name\": \"Yael Skiles\",\n            \"email\": \"forrest_jerde@zboncak.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 4064,\n                    \"campaign_name\": \"facilis\"\n                },\n                {\n                    \"campaign_id\": 7532,\n                    \"campaign_name\": \"sit\"\n                }\n            ]\n        },\n        {\n            \"id\": 15,\n            \"name\": \"Isaac Steuber\",\n            \"email\": \"pauletta@littel-prosacco.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 1081,\n                    \"campaign_name\": \"enim\"\n                },\n                {\n                    \"campaign_id\": 1194,\n                    \"campaign_name\": \"est\"\n                }\n            ]\n        },\n        {\n            \"id\": 16,\n            \"name\": \"Prof. Leandro Osinski\",\n            \"email\": \"cristina_stehr@quigley-kling.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 4474,\n                    \"campaign_name\": \"molestias\"\n                },\n                {\n                    \"campaign_id\": 9033,\n                    \"campaign_name\": \"aspernatur\"\n                }\n            ]\n        },\n        {\n            \"id\": 17,\n            \"name\": \"Murray Greenfelder IV\",\n            \"email\": \"corinne_shields@schmitt.example\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 6432,\n                    \"campaign_name\": \"veritatis\"\n                },\n                {\n                    \"campaign_id\": 3556,\n                    \"campaign_name\": \"a\"\n                }\n            ]\n        },\n        {\n            \"id\": 18,\n            \"name\": \"Numbers Hand\",\n            \"email\": \"frank.bahringer@kuhn.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 7363,\n                    \"campaign_name\": \"nostrum\"\n                },\n                {\n                    \"campaign_id\": 2562,\n                    \"campaign_name\": \"atque\"\n                }\n            ]\n        },\n        {\n            \"id\": 19,\n            \"name\": \"Basil Braun\",\n            \"email\": \"lon_kiehn@frami-gislason.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 6825,\n                    \"campaign_name\": \"sint\"\n                },\n                {\n                    \"campaign_id\": 1090,\n                    \"campaign_name\": \"modi\"\n                }\n            ]\n        },\n        {\n            \"id\": 20,\n            \"name\": \"Ulysses Dibbert\",\n            \"email\": \"pearlie.stoltenberg@hartmann.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 8521,\n                    \"campaign_name\": \"dolore\"\n                },\n                {\n                    \"campaign_id\": 9702,\n                    \"campaign_name\": \"nihil\"\n                }\n            ]\n        }\n    ],\n    \"errors\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "filter",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "user filter",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/users/filter?campaign_names=aut&page=1&per_page=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"users",
+								"filter"
+							],
+							"query": [
+								{
+									"key": "campaign_names",
+									"value": "aut"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "vary",
+							"value": "Accept"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"63f6ef4c2010a0aa872caf48067202c8\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "ea742284-f923-453e-872a-f8b817bc814d"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.058472"
+						},
+						{
+							"key": "server-timing",
+							"value": "start_processing.action_controller;dur=0.01, sql.active_record;dur=4.96, instantiation.active_record;dur=8.70, process_action.action_controller;dur=14.90"
+						},
+						{
+							"key": "Content-Length",
+							"value": "211"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Fr. Elmo Roberts\",\n            \"email\": \"coleen_erdman@olson.test\",\n            \"campaigns_list\": [\n                {\n                    \"campaign_id\": 1991,\n                    \"campaign_name\": \"aut\"\n                },\n                {\n                    \"campaign_id\": 2281,\n                    \"campaign_name\": \"ut\"\n                }\n            ]\n        }\n    ],\n    \"errors\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Alice\",\n    \"email\": \"alice@gmail.com\",\n    \"campaigns_list\": [\n        {\n            \"campaign_name\": \"cam4\",\n            \"campaign_id\": \"id4\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "error create User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Alice\",\n    \"email\": \"alice@gmail.com\",\n    \"campaigns_list\": [\n        {\n            \"campaign_name\": \"cam4\",\n            \"campaign_id\": \"id4\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"status": "Unprocessable Content",
+					"code": 422,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "vary",
+							"value": "Accept"
+						},
+						{
+							"key": "cache-control",
+							"value": "no-cache"
+						},
+						{
+							"key": "x-request-id",
+							"value": "26c32c75-8475-41c9-baba-ab13af7594b3"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.072593"
+						},
+						{
+							"key": "server-timing",
+							"value": "sql.active_record;dur=8.50, start_processing.action_controller;dur=0.01, transaction.active_record;dur=3.09, process_action.action_controller;dur=13.30"
+						},
+						{
+							"key": "Content-Length",
+							"value": "103"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": false,\n    \"errors\": [\n        {\n            \"title\": \"Duplicate Record Error\",\n            \"detail\": \"Email has already been taken\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "success create User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Alice\",\n    \"email\": \"alsice@gmail.com\",\n    \"campaigns_list\": [\n        {\n            \"campaign_name\": \"cam4\",\n            \"campaign_id\": \"id4\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "vary",
+							"value": "Accept"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"32ef8cae71bb1ab84bf5c9a1db43541c\""
+						},
+						{
+							"key": "cache-control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "x-request-id",
+							"value": "8a6558ea-3ed3-412a-8484-e5776deb41e0"
+						},
+						{
+							"key": "x-runtime",
+							"value": "0.015261"
+						},
+						{
+							"key": "server-timing",
+							"value": "start_processing.action_controller;dur=0.01, sql.active_record;dur=5.76, transaction.active_record;dur=5.65, process_action.action_controller;dur=9.18"
+						},
+						{
+							"key": "Content-Length",
+							"value": "172"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": {\n        \"id\": 57,\n        \"name\": \"Alice\",\n        \"email\": \"alsice@gmail.com\",\n        \"campaigns_list\": [\n            {\n                \"campaign_name\": \"cam4\",\n                \"campaign_id\": \"id4\"\n            }\n        ]\n    },\n    \"errors\": [],\n    \"meta_key\": \"created\"\n}"
+				}
+			]
+		}
+	]
+}
